@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* What breakpoints should I use 2023?
+Common Responsive Breakpoints
+Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080. */
+
+@media screen and (min-width: 768px ) and (max-width: 1024px) {
+
+    body{
+        background-image: linear-gradient(45deg,#67A68F, #2E594A);
+    }
+    section#login{
+        width:80vw;
+        display: flex;
+    }
+
+    section#login > div#imagem{
+        justify-content: flex-start;
+        width: 30%;
+        height: 100%;
+     
+
+    }
+    section#login > div#formulario{
+        justify-content: flex-end;
+        width: 70%;
+        height: 100%;
+        background-color:#46A683 ;
+
+
+    }
+}
+@media screen and (min-width: 1024px )  {
+
+    body{
+        background-image: linear-gradient(45deg,#67A68F, #2E594A, #ee300649 99% );
+    }
+    section#login{
+        width:1020px;
+        display: flex;
+        border:1px  solid #A64935 ;
+    }
+
+    section#login > div#imagem{
+        justify-content: flex-start;
+        width: 35%;
+        height: 100%;
+     
+
+    }
+    section#login > div#formulario{
+        justify-content: flex-end;
+        width: 65%;
+        height: 100%;
+
+    }
+}
