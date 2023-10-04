@@ -34,19 +34,14 @@ High-res laptop or desktop: 1920 x 1080. */
         background-color:#46A683 ;
 
 
-    }
-    #log::after{
-        content: "Login";
-    }
-   #sen::after{
-        content: "Senha";
-    }
+  }
     div#formulario > h1{
         font-size: 1.7em;
         }
     div#formulario > p{
         font-size: 1em;
         }
+
 
 }
 @media screen and (min-width: 1024px )  {
@@ -82,12 +77,6 @@ High-res laptop or desktop: 1920 x 1080. */
     div#formulario > p{
         font-size: 1.2em;
         }
-        
-        #log::after{
-            content: "Login";
-        }
-       #sen::after{
-            content: "Senha";
-        }
+      
         
 }

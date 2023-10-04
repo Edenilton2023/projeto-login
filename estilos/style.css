@@ -71,11 +71,54 @@ section#login > div#formulario{
 }
 div#formulario > h1 {
     text-align: center;
-    margin-bottom: 15px;
+   padding-bottom: 10px;
      
 }
 
 div#formulario > p{
 font-size: .9em;
+padding-bottom: 10px;
 }
 
+span{
+    background-color:#A64935 ;
+    color: white;
+    border-radius: 20%;
+}
+#bot {
+display: block;
+    color: white;
+    background-color: #A64935;
+    width: 190px;
+    border-radius: 10px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+ a {
+  display:inline-block;
+ text-decoration: none;
+    color: white;
+    width: 166px;
+    background-color: #a64a35bd;
+    border-radius: 10px 0px  0px 10px;
+    height: 25px;
+    cursor: pointer;
+    text-align: center;
+
+
+ }
+.cent{
+    display: flex;
+    text-align: center;
+
+}
+.cent >span :hover{
+    cursor: pointer;
+
+}
+.campo{
+    background-color: #46A683;
+   height: 48px;
+}
