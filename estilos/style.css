@@ -31,94 +31,42 @@
     box-sizing: border-box;
 }
 html ,body{
-    background-color:#46A683;
+    background-color: #67A68F;
     height: 100vh;
     width: 100vw;
+  
+ 
 }
 main{
-    position: relative;
+    
     height: 100vh;
     width: 100vw;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+  
 }
 section#login{
-    
-
-    background-color:#67A68F ;
-    width: 250px;
-    height: 500px;
-    box-shadow:0px 0px 15px #3e6d5caa;
-    border-radius: 25px;
-    overflow: hidden;/*  tudo que tiver fora ficara escondodo*/
-    transition: .6s ;
-    transition-timing-function:ease-in-out;
-
+ background-color: white;
+ width: 250px;
+ height: 500px;
+ border-radius: 20px;
+ overflow: hidden;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
 }
+
+
 section#login > div#imagem{
-    background:#46A683 url(../imagens/bananeira.jpg)no-repeat;
-    height: 200px;
+    background:#67A68F url(../imagens/bananeira.jpg)no-repeat;
     background-size: cover;
-    background-position: center center;
-     display: block;
-
-}
-section#login > div#formulario{
-    padding: 12px; 
+    height: 200px;
     display: block;
 
-}
-div#formulario > h1 {
-    text-align: center;
-   padding-bottom: 10px;
-     
-}
-
-div#formulario > p{
-font-size: .9em;
-padding-bottom: 10px;
-}
-
-span{
-    background-color:#A64935 ;
-    color: white;
-    border-radius: 20%;
-}
-#bot {
-display: block;
-    color: white;
-    background-color: #A64935;
-    width: 190px;
-    border-radius: 10px;
-    height: 25px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
- a {
-  display:inline-block;
- text-decoration: none;
-    color: white;
-    width: 166px;
-    background-color: #a64a35bd;
-    border-radius: 10px 0px  0px 10px;
-    height: 25px;
-    cursor: pointer;
-    text-align: center;
-
-
- }
-.cent{
-    display: flex;
-    text-align: center;
 
 }
-.cent >span :hover{
-    cursor: pointer;
 
-}
-.campo{
-    background-color: #46A683;
-   height: 48px;
+section#login div#formulario{
+    padding: 15px;
+    display: block;
+
 }
