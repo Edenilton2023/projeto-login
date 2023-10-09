@@ -16,6 +16,8 @@ body{
 }
 section#login{
     width:80vw;
+    height: 380px;
+    
     display: flex;
 }
 section#login > div#imagem{
@@ -48,6 +50,7 @@ div#formulario > p {
     }
     section#login{
         width:992px;
+        height: 450px;
         display: flex;
         flex-direction: row-reverse;
      

@@ -108,10 +108,17 @@ form >div.campo >span{
     border-radius: 8px;
     padding: 5px;
     border: none;
-   transform: translateY(-9px);/* movendo pra cima */
+   transform: translateY(-9px);
+   /* movendo pra cima
+   fazer sempre na ultima linha
+   para evitar poblemas nos navegadores */
    
 
  
+}
+div .campo > input:focus-within{
+    background-color: white;
+    border: none;
 }
 
 label{
